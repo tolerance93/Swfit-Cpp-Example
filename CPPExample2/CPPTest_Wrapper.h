@@ -10,4 +10,5 @@
 
 @interface CPPTest_Wrapper : NSObject
 -(void) HelloFromCPP_Wrapper;
+-(int) Fibonacci_Wrapper: (int)n;
 @end

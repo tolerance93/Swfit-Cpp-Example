@@ -18,6 +18,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
         //HelloFromC();
         CPPTest_Wrapper().helloFromCPP_Wrapper()
+        print(CPPTest_Wrapper().fibonacci_Wrapper(10))
     }
     
 }

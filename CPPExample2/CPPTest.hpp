@@ -9,4 +9,5 @@
 class CPPTest {
 public:
     void HelloFromCPP();
+    int fibonacci(int n);
 };

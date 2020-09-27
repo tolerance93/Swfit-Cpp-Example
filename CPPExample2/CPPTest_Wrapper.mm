@@ -16,4 +16,10 @@
     CPPTest cpptest;
     cpptest.HelloFromCPP();
 }
+
+-(int) Fibonacci_Wrapper: (int)n
+{
+    CPPTest cpptest;
+    return cpptest.fibonacci(n);
+}
 @end
